@@ -5,3 +5,47 @@
 .forma {
     max-width: 700px;
 }
+
+#cb1 {
+    accent-color: blue;
+  }
+.spusok {
+    margin-top: 60px;
+}
+
+.lif {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+    color: blue;
+    font-size: 20px;
+}
+
+.spusok2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+.sp1 {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+
+.spmain{
+    font-weight: 900;
+}
+.sp3 {
+    opacity: 60%;
+}
+
+.lif2::after {
+    content: '4';
+    padding: 1px 10px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
