@@ -1,14 +1,9 @@
 .knopka1 {
     width: 100%;
 }
-
 .forma {
-    max-width: 700px;
+    max-width: 600px;
 }
-
-#cb1 {
-    accent-color: blue;
-  }
 .spusok {
     margin-top: 60px;
 }
@@ -16,25 +11,25 @@
 .lif {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
     gap: 10px;
     color: blue;
     font-size: 20px;
+    padding: 10px;
+}
+.lif:hover {
+    background-color: lightblue;
 }
 
 .spusok2 {
     display: flex;
     align-items: center;
-    border: 1px solid black;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px grey;
 }
 .sp1 {
    display: flex;
    align-items: center;
    gap: 10px;
 }
-
-
 .spmain{
     font-weight: 900;
 }
@@ -42,53 +37,37 @@
     opacity: 60%;
 }
 
-.lif2::after {
+.lif2:after {
     content: '4';
     padding: 1px 10px;
     background-color: blue;
     color: white;
     font-size: 16px;
 }
-
 .page3b1 {
     display: flex;
     align-items: center;
-    gap: 20px;
     margin: 0;
 }
 
 .page3r {
-    border: 1px solid black;
-    box-shadow: 0 0 5px black;
-}
-
-.page3r:nth-child(1) 
-{
-    padding: 20px 40px;
+    box-shadow: 0 0 5px grey;
 }
 
 .zag {
     font-weight: 900;
 }
-
 .chas {
     opacity: 60%;
     font-weight: 400;
-}
-
-.boats {
-    display: flex;
-    gap: 10px;
-}
-
-.boat3 img {
-    width: 100%;
-}
-
-.boats img {
+}.boat img {
     width: 100%;
 }
 
 a {
     color: blue;
+}
+.ht {
+    display: flex;
+    align-items: center;
 }
