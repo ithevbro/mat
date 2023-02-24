@@ -71,3 +71,28 @@ a {
     display: flex;
     align-items: center;
 }
+
+#nav-mobile {
+    height: 64px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.fsb {
+    font-size: 26px;
+}
+
+.p4pic {
+    display: flex;
+    gap: 10px;
+    
+}
+.zsy {
+    display: inline-flex;
+    gap: 20px;
+}
+.mart {
+    margin-top: 20px;
+}
